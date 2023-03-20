@@ -1,0 +1,49 @@
+body {
+    font-family: "Lato", sans-serif;
+    color: #03295a;
+}
+h1{
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+    float:right;
+    margin-right: 700px;
+}
+.obraz1{
+    width:  200px;
+    height: 100px;
+}
+h2{
+    font-family: 'Amatic SC', cursive; ;
+    margin-left: 25px;
+    text-align: center;
+    
+}
+.obraz2{
+    width: 450px;
+    height: 300px;
+    margin-left: 715px;
+}
+h3 {
+    text-align: center;
+    font-family: "Amatic SC", sans-serif;
+    font-size: 2rem;
+
+}
+div.sectionContainer {
+    display: flex;
+}
+div.sectionImage {
+    flex: 1;
+    max-width: 100%;
+    
+
+}
+div.sectionImage > img {
+    max-width: 100%;
+    padding: 20px;
+}
+div.sectionContent {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
